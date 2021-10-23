@@ -1,0 +1,507 @@
+FOLLOWING UPGRADE TO RUBY 2.5.8 - On staging system "vp-upgrade"
+
+       Ruby app detected
+       Installing bundler 1.17.3
+       Removing BUNDLED WITH version in the Gemfile.lock
+       Compiling Ruby/Rails
+###### WARNING:
+       Your app was upgraded to bundler 1.17.3.
+       Previously you had a successful deploy with bundler 1.9.7.
+       
+       If you see problems related to the bundler version please refer to:
+       https://devcenter.heroku.com/articles/bundler-version#known-upgrade-issues
+       
+       Using Ruby version: ruby-2.5.8
+       Installing gsl
+       Ruby version change detected. Clearing bundler cache.
+       Old: ruby 2.4.2p198 (2017-09-14 revision 59899) [x86_64-linux]
+       New: ruby 2.5.8p224 (2020-03-31 revision 67882) [x86_64-linux]
+       Installing dependencies using bundler 1.17.3
+       Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment
+       Fetching gem metadata from https://rubygems.org/...........
+       Fetching https://x-oauth-basic@github.com/rvizza/rb-gsl.git
+       Fetching https://x-oauth-basic@github.com/rvizza/heroku-rglpk.git
+       Fetching https://x-oauth-basic@github.com/rvizza/joule.git
+       Fetching https://x-oauth-basic@github.com/rvizza/ride_parser.git
+       Fetching https://x-oauth-basic@github.com/rvizza/strava-api-v3.git
+       Fetching https://x-oauth-basic@github.com/rvizza/top_efforts.git
+       Fetching rake 13.0.1
+       Installing rake 13.0.1
+       Fetching concurrent-ruby 1.1.6
+       Fetching minitest 5.14.1
+       Fetching thread_safe 0.3.6
+       Installing minitest 5.14.1
+       Installing thread_safe 0.3.6
+       Installing concurrent-ruby 1.1.6
+       Fetching builder 3.2.4
+       Installing builder 3.2.4
+       Fetching erubi 1.9.0
+       Fetching mini_portile2 2.4.0
+       Installing erubi 1.9.0
+       Installing mini_portile2 2.4.0
+       Fetching crass 1.0.6
+       Installing crass 1.0.6
+       Fetching rack 2.2.3
+       Fetching nio4r 2.5.2
+       Installing rack 2.2.3
+       Installing nio4r 2.5.2 with native extensions
+       Fetching websocket-extensions 0.1.5
+       Fetching mini_mime 1.0.2
+       Installing websocket-extensions 0.1.5
+       Installing mini_mime 1.0.2
+       Fetching arel 8.0.0
+       Installing arel 8.0.0
+       Fetching public_suffix 4.0.5
+       Installing public_suffix 4.0.5
+       Fetching execjs 2.7.0
+       Installing execjs 2.7.0
+       Fetching aws-eventstream 1.1.0
+       Fetching aws-partitions 1.345.0
+       Installing aws-eventstream 1.1.0
+       Installing aws-partitions 1.345.0
+       Fetching jmespath 1.4.0
+       Installing jmespath 1.4.0
+       Fetching bcrypt 3.1.15
+       Installing bcrypt 3.1.15 with native extensions
+       Fetching popper_js 1.16.0
+       Installing popper_js 1.16.0
+       Fetching rb-fsevent 0.10.4
+       Installing rb-fsevent 0.10.4
+       Fetching ffi 1.13.1
+       Installing ffi 1.13.1 with native extensions
+       Using bundler 1.17.3
+       Fetching cancancan 1.17.0
+       Installing cancancan 1.17.0
+       Fetching mini_magick 4.10.1
+       Installing mini_magick 4.10.1
+       Fetching mimemagic 0.3.5
+       Installing mimemagic 0.3.5
+       Fetching coffee-script-source 1.12.2
+       Installing coffee-script-source 1.12.2
+       Fetching method_source 1.0.0
+       Installing method_source 1.0.0
+       Fetching thor 1.0.1
+       Installing thor 1.0.1
+       Fetching daemons 1.3.1
+       Installing daemons 1.3.1
+       Fetching orm_adapter 0.5.0
+       Installing orm_adapter 0.5.0
+       Fetching unf_ext 0.0.7.7
+       Installing unf_ext 0.0.7.7 with native extensions
+       Fetching erubis 2.7.0
+       Installing erubis 2.7.0
+       Fetching eventmachine 1.2.7
+       Installing eventmachine 1.2.7 with native extensions
+       Fetching excon 0.75.0
+       Installing excon 0.75.0
+       Fetching multipart-post 2.1.1
+       Installing multipart-post 2.1.1
+       Fetching fastercsv 1.5.5
+       Installing fastercsv 1.5.5
+       Fetching formatador 0.2.5
+       Installing formatador 0.2.5
+       Fetching mime-types 1.25.1
+       Installing mime-types 1.25.1
+       Fetching multi_json 1.15.0
+       Installing multi_json 1.15.0
+       Fetching ipaddress 0.8.3
+       Installing ipaddress 0.8.3
+       Fetching narray 0.6.1.2
+       Installing narray 0.6.1.2 with native extensions
+       Fetching hashie 4.1.0
+       Installing hashie 4.1.0
+       Fetching moneta 1.0.0
+       Installing moneta 1.0.0
+       Using heroku-rglpk 0.2.1 from https://x-oauth-basic@github.com/rvizza/heroku-rglpk.git (at master@760859c)
+       Fetching multi_xml 0.6.0
+       Installing multi_xml 0.6.0
+       Fetching http-accept 1.7.0
+       Installing http-accept 1.7.0
+       Fetching socksify 1.7.1
+       Installing socksify 1.7.1
+       Fetching json 2.3.1
+       Installing json 2.3.1 with native extensions
+       Fetching jwt 2.2.1
+       Installing jwt 2.2.1
+       Fetching systemu 2.6.5
+       Installing systemu 2.6.5
+       Fetching netrc 0.11.0
+       Installing netrc 0.11.0
+       Fetching newrelic_rpm 6.12.0.367
+       Installing newrelic_rpm 6.12.0.367
+       Fetching nori 2.6.0
+       Installing nori 2.6.0
+       Fetching pagy 3.8.3
+       Installing pagy 3.8.3
+       Fetching pg 0.20.0
+       Installing pg 0.20.0 with native extensions
+       Fetching rate_throttle_client 0.1.2
+       Installing rate_throttle_client 0.1.2
+       Fetching polylines 0.3.0
+       Installing polylines 0.3.0
+       Fetching rails_serve_static_assets 0.0.5
+       Installing rails_serve_static_assets 0.0.5
+       Fetching rails_stdout_logging 0.0.5
+       Installing rails_stdout_logging 0.0.5
+       Using ride_parser 0.0.4 from https://x-oauth-basic@github.com/rvizza/ride_parser.git (at master@a8bf22e)
+       Fetching rolify 5.3.0
+       Installing rolify 5.3.0
+       Fetching session 3.2.0
+       Installing session 3.2.0
+       Fetching tilt 2.0.10
+       Installing tilt 2.0.10
+       Fetching switch_user 1.5.2
+       Installing switch_user 1.5.2
+       Using top_efforts 0.0.2 from https://x-oauth-basic@github.com/rvizza/top_efforts.git (at master@3a25bce)
+       Fetching tzinfo 1.2.7
+       Installing tzinfo 1.2.7
+       Fetching gyoku 1.3.1
+       Installing gyoku 1.3.1
+       Fetching sitemap_generator 6.1.2
+       Installing sitemap_generator 6.1.2
+       Fetching nokogiri 1.10.10
+       Installing nokogiri 1.10.10 with native extensions
+       Fetching rack-test 0.6.3
+       Installing rack-test 0.6.3
+       Fetching warden 1.2.8
+       Installing warden 1.2.8
+       Fetching request_store 1.5.0
+       Installing request_store 1.5.0
+       Fetching i18n 0.9.5
+       Installing i18n 0.9.5
+       Fetching sprockets 3.7.2
+       Installing sprockets 3.7.2
+       Fetching websocket-driver 0.6.5
+       Installing websocket-driver 0.6.5 with native extensions
+       Fetching mail 2.7.1
+       Installing mail 2.7.1
+       Fetching addressable 2.7.0
+       Installing addressable 2.7.0
+       Fetching autoprefixer-rails 9.8.5
+       Installing autoprefixer-rails 9.8.5
+       Fetching uglifier 4.2.0
+       Installing uglifier 4.2.0
+       Fetching aws-sigv4 1.2.1
+       Installing aws-sigv4 1.2.1
+       Fetching coffee-script 2.4.1
+       Fetching figaro 1.2.0
+       Fetching rb-inotify 0.10.1
+       Installing coffee-script 2.4.1
+       Fetching ruby-vips 2.0.17
+       Installing rb-inotify 0.10.1
+       Installing figaro 1.2.0
+       Fetching sassc 2.4.0
+       Installing ruby-vips 2.0.17
+       Fetching faraday 0.17.3
+       Installing sassc 2.4.0 with native extensions
+       Installing faraday 0.17.3
+       Fetching fog-core 2.2.0
+       Installing fog-core 2.2.0
+       Fetching unf 0.1.4
+       Installing unf 0.1.4
+       Fetching omniauth 1.9.1
+       Installing omniauth 1.9.1
+       Fetching heroics 0.1.1
+       Installing heroics 0.1.1
+       Using gsl 1.14.7 from https://x-oauth-basic@github.com/rvizza/rb-gsl.git (at a0c0b1b@a0c0b1b)
+       Fetching httparty 0.16.2
+       Installing httparty 0.16.2
+       Fetching httpi 2.4.5
+       Installing httpi 2.4.5
+       Fetching macaddr 1.7.2
+       Installing macaddr 1.7.2
+       Fetching thin 1.7.2
+       Installing thin 1.7.2 with native extensions
+       Fetching rails_12factor 0.0.3
+       Installing rails_12factor 0.0.3
+       Fetching rush 0.6.8
+       Installing rush 0.6.8
+       Fetching tzinfo-data 1.2020.1
+       Installing tzinfo-data 1.2020.1
+       Fetching activesupport 5.1.2
+       Installing activesupport 5.1.2
+       Fetching money 6.13.8
+       Installing money 6.13.8
+       Fetching loofah 2.6.0
+       Installing loofah 2.6.0
+       Fetching akami 1.3.1
+       Installing akami 1.3.1
+       Using joule 1.0.4 from https://x-oauth-basic@github.com/rvizza/joule.git (at master@4a67fd0)
+       Fetching aws-sdk-core 3.104.3
+       Installing aws-sdk-core 3.104.3
+       Fetching sass-listen 4.0.0
+       Installing sass-listen 4.0.0
+       Fetching image_processing 1.11.0
+       Installing image_processing 1.11.0
+       Fetching koala 3.0.0
+       Installing koala 3.0.0
+       Fetching oauth2 1.4.4
+       Installing oauth2 1.4.4
+       Fetching stripe 3.30.0
+       Fetching domain_name 0.5.20190701
+       Fetching platform-api 3.0.0
+       Installing stripe 3.30.0
+       Installing domain_name 0.5.20190701
+       Installing platform-api 3.0.0
+       Fetching fog-json 1.2.0
+       Fetching fog-xml 0.1.3
+       Installing fog-json 1.2.0
+       Installing fog-xml 0.1.3
+       Fetching httmultiparty 0.3.16
+       Installing httmultiparty 0.3.16
+       Fetching wasabi 3.3.0
+       Fetching uuid 2.3.9
+       Installing uuid 2.3.9
+       Fetching rails-dom-testing 2.0.3
+       Installing rails-dom-testing 2.0.3
+       Installing wasabi 3.3.0
+       Fetching globalid 0.4.2
+       Installing globalid 0.4.2
+       Fetching activemodel 5.1.2
+       Installing activemodel 5.1.2
+       Fetching delayed_job 4.1.8
+       Installing delayed_job 4.1.8
+       Fetching rails-html-sanitizer 1.3.0
+       Installing rails-html-sanitizer 1.3.0
+       Fetching aws-sdk-kms 1.36.0
+       Fetching sass 3.7.4
+       Installing aws-sdk-kms 1.36.0
+       Installing sass 3.7.4
+       Fetching omniauth-oauth2 1.6.0
+       Installing omniauth-oauth2 1.6.0
+       Fetching http-cookie 1.0.3
+       Using strava-api-v3 0.8.0 from https://x-oauth-basic@github.com/rvizza/strava-api-v3.git (at master@bc198a9)
+       Fetching fog-aws 3.6.6
+       Installing http-cookie 1.0.3
+       Installing fog-aws 3.6.6
+       Fetching activejob 5.1.2
+       Installing activejob 5.1.2
+       Fetching stripe_event 2.3.1
+       Installing stripe_event 2.3.1
+       Fetching savon 2.8.1
+       Fetching actionview 5.1.2
+       Installing actionview 5.1.2
+       Installing savon 2.8.1
+       Fetching activerecord 5.1.2
+       Installing activerecord 5.1.2
+       Fetching carrierwave 2.1.0
+       Installing carrierwave 2.1.0
+       Fetching aws-sdk-s3 1.75.0
+       Installing aws-sdk-s3 1.75.0
+       Fetching omniauth-stripe-connect 2.10.1
+       Installing omniauth-stripe-connect 2.10.1
+       Fetching rest-client 2.1.0
+       Installing rest-client 2.1.0
+       Fetching bootstrap 4.0.0
+       Installing bootstrap 4.0.0
+       Fetching actionpack 5.1.2
+       Installing actionpack 5.1.2
+       Fetching delayed_job_active_record 4.1.4
+       Installing delayed_job_active_record 4.1.4
+       Fetching friendly_id 5.3.0
+       Installing friendly_id 5.3.0
+       Fetching actioncable 5.1.2
+       Fetching actionmailer 5.1.2
+       Installing actionmailer 5.1.2
+       Installing actioncable 5.1.2
+       Fetching railties 5.1.2
+       Installing railties 5.1.2
+       Fetching sprockets-rails 3.2.1
+       Installing sprockets-rails 3.2.1
+       Fetching simple_form 5.0.2
+       Installing simple_form 5.0.2
+       Fetching coffee-rails 4.2.2
+       Fetching responders 2.4.1
+       Installing coffee-rails 4.2.2
+       Installing responders 2.4.1
+       Fetching jquery-fileupload-rails 0.4.7
+       Installing jquery-fileupload-rails 0.4.7
+       Fetching jquery-rails 4.4.0
+       Installing jquery-rails 4.4.0
+       Fetching jquery-ui-rails 6.0.1
+       Fetching lograge 0.11.2
+       Installing lograge 0.11.2
+       Installing jquery-ui-rails 6.0.1
+       Fetching rails 5.1.2
+       Installing rails 5.1.2
+       Fetching sassc-rails 2.1.2
+       Installing sassc-rails 2.1.2
+       Fetching social-share-button 1.2.3
+       Installing social-share-button 1.2.3
+       Fetching devise 4.7.2
+       Installing devise 4.7.2
+       Fetching spinjs-rails 1.4
+       Installing spinjs-rails 1.4
+       Fetching workless_revived 2.0.1
+       Installing workless_revived 2.0.1
+       Fetching sass-rails 6.0.0
+       Installing sass-rails 6.0.0
+       Fetching s3_direct_upload 0.1.7
+       Installing s3_direct_upload 0.1.7
+       Bundle complete! 79 Gemfile dependencies, 160 gems now installed.
+       Gems in the groups development and test were not installed.
+       Bundled gems are installed into `./vendor/bundle`
+       Post-install message from sass:
+       
+       Ruby Sass has reached end-of-life and should no longer be used.
+       
+       * If you use Sass as a command-line tool, we recommend using Dart Sass, the new
+         primary implementation: https://sass-lang.com/install
+       
+       * If you use Sass as a plug-in for a Ruby web framework, we recommend using the
+         sassc gem: https://github.com/sass/sassc-ruby#readme
+       
+       * For more details, please refer to the Sass blog:
+         https://sass-lang.com/blog/posts/7828841
+       
+       Post-install message from httparty:
+       When you HTTParty, you must party hard!
+       Bundle completed (277.88s)
+       Cleaning up the bundler cache.
+       Installing node-v12.16.2-linux-x64
+       Detected manifest file, assuming assets were compiled locally
+       Detecting rails configuration
+       Detecting rake tasks
+ !
+ !     Could not detect rake tasks
+ !     ensure you can run `$ bundle exec rake -P` against your app
+ !     and using the production group of your Gemfile.
+ !     rake aborted!
+ !     LoadError: libgsl.so.0: cannot open shared object file: No such file or directory - /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/bundler/gems/rb-gsl-a0c0b1b1b4de/lib/rb_gsl.so
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.2/lib/active_support/dependencies.rb:292:in `require'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.2/lib/active_support/dependencies.rb:292:in `block in require'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.2/lib/active_support/dependencies.rb:258:in `load_dependency'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.2/lib/active_support/dependencies.rb:292:in `require'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/bundler/gems/rb-gsl-a0c0b1b1b4de/lib/gsl.rb:1:in `<top (required)>'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/bundler-1.17.3/lib/bundler/runtime.rb:81:in `require'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/bundler-1.17.3/lib/bundler/runtime.rb:81:in `block (2 levels) in require'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/bundler-1.17.3/lib/bundler/runtime.rb:76:in `each'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/bundler-1.17.3/lib/bundler/runtime.rb:76:in `block in require'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/bundler-1.17.3/lib/bundler/runtime.rb:65:in `each'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/bundler-1.17.3/lib/bundler/runtime.rb:65:in `require'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/bundler-1.17.3/lib/bundler.rb:114:in `require'
+ !     /tmp/build_be63d5c7/config/application.rb:24:in `<top (required)>'
+ !     /tmp/build_be63d5c7/Rakefile:5:in `require'
+ !     /tmp/build_be63d5c7/Rakefile:5:in `<top (required)>'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/rake_module.rb:29:in `load'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/rake_module.rb:29:in `load_rakefile'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/application.rb:703:in `raw_load_rakefile'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/application.rb:104:in `block in load_rakefile'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/application.rb:186:in `standard_exception_handling'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/application.rb:103:in `load_rakefile'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/application.rb:82:in `block in run'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/application.rb:186:in `standard_exception_handling'
+ !     /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/application.rb:80:in `run'
+ !     /tmp/build_be63d5c7/bin/rake:4:in `<main>'
+ !
+/tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/helpers/rake_runner.rb:106:in `load_rake_tasks!': Could not detect rake tasks (LanguagePack::Helpers::RakeRunner::CannotLoadRakefileError)
+ensure you can run `$ bundle exec rake -P` against your app
+and using the production group of your Gemfile.
+rake aborted!
+LoadError: libgsl.so.0: cannot open shared object file: No such file or directory - /tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/bundler/gems/rb-gsl-a0c0b1b1b4de/lib/rb_gsl.so
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.2/lib/active_support/dependencies.rb:292:in `require'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.2/lib/active_support/dependencies.rb:292:in `block in require'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.2/lib/active_support/dependencies.rb:258:in `load_dependency'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/activesupport-5.1.2/lib/active_support/dependencies.rb:292:in `require'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/bundler/gems/rb-gsl-a0c0b1b1b4de/lib/gsl.rb:1:in `<top (required)>'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/bundler-1.17.3/lib/bundler/runtime.rb:81:in `require'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/bundler-1.17.3/lib/bundler/runtime.rb:81:in `block (2 levels) in require'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/bundler-1.17.3/lib/bundler/runtime.rb:76:in `each'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/bundler-1.17.3/lib/bundler/runtime.rb:76:in `block in require'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/bundler-1.17.3/lib/bundler/runtime.rb:65:in `each'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/bundler-1.17.3/lib/bundler/runtime.rb:65:in `require'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/bundler-1.17.3/lib/bundler.rb:114:in `require'
+/tmp/build_be63d5c7/config/application.rb:24:in `<top (required)>'
+/tmp/build_be63d5c7/Rakefile:5:in `require'
+/tmp/build_be63d5c7/Rakefile:5:in `<top (required)>'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/rake_module.rb:29:in `load'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/rake_module.rb:29:in `load_rakefile'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/application.rb:703:in `raw_load_rakefile'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/application.rb:104:in `block in load_rakefile'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/application.rb:186:in `standard_exception_handling'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/application.rb:103:in `load_rakefile'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/application.rb:82:in `block in run'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/application.rb:186:in `standard_exception_handling'
+/tmp/build_be63d5c7/vendor/bundle/ruby/2.5.0/gems/rake-13.0.1/lib/rake/application.rb:80:in `run'
+/tmp/build_be63d5c7/bin/rake:4:in `<main>'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/ruby.rb:1087:in `rake'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/rails2.rb:85:in `has_jobs_work_task?'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/rails2.rb:53:in `block in default_process_types'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:18:in `block (2 levels) in instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:40:in `yield_with_block_depth'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:17:in `block in instrument'
+	from /tmp/tmp.5ExZwPRHp6/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:16:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:50:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:46:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/rails2.rb:46:in `default_process_types'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/rails3.rb:29:in `block in default_process_types'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:18:in `block (2 levels) in instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:40:in `yield_with_block_depth'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:17:in `block in instrument'
+	from /tmp/tmp.5ExZwPRHp6/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:16:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:50:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:46:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/rails3.rb:23:in `default_process_types'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/rails4.rb:26:in `block in default_process_types'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:18:in `block (2 levels) in instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:40:in `yield_with_block_depth'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:17:in `block in instrument'
+	from /tmp/tmp.5ExZwPRHp6/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:16:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:50:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:46:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/rails4.rb:25:in `default_process_types'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:126:in `build_release'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:155:in `write_release_yaml'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:84:in `compile'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/ruby.rb:126:in `block in compile'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:18:in `block (2 levels) in instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:40:in `yield_with_block_depth'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:17:in `block in instrument'
+	from /tmp/tmp.5ExZwPRHp6/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:16:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:50:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:46:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/ruby.rb:98:in `compile'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/rails2.rb:62:in `block in compile'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:18:in `block (2 levels) in instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:40:in `yield_with_block_depth'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:17:in `block in instrument'
+	from /tmp/tmp.5ExZwPRHp6/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:16:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:50:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:46:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/rails2.rb:60:in `compile'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/rails3.rb:42:in `block in compile'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:18:in `block (2 levels) in instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:40:in `yield_with_block_depth'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:17:in `block in instrument'
+	from /tmp/tmp.5ExZwPRHp6/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:16:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:50:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:46:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/rails3.rb:41:in `compile'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/rails4.rb:41:in `block in compile'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:18:in `block (2 levels) in instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:40:in `yield_with_block_depth'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:17:in `block in instrument'
+	from /tmp/tmp.5ExZwPRHp6/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:16:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:50:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:46:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/rails4.rb:40:in `compile'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/bin/support/ruby_compile:20:in `block (2 levels) in <main>'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/base.rb:190:in `log'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/bin/support/ruby_compile:19:in `block in <main>'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:35:in `block in trace'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:18:in `block (2 levels) in instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:40:in `yield_with_block_depth'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:17:in `block in instrument'
+	from /tmp/tmp.5ExZwPRHp6/lib/ruby/2.6.0/benchmark.rb:308:in `realtime'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:16:in `instrument'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/lib/language_pack/instrument.rb:35:in `trace'
+	from /tmp/codon/tmp/buildpacks/4e92c064f9238fc6fbc9770d2e5e09dd766ad801/bin/support/ruby_compile:15:in `<main>'
+ !     Push rejected, failed to compile Ruby app.
+ !     Push failed

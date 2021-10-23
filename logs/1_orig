@@ -1,0 +1,362 @@
+ORIGINAL BUILD FAILURE ON HEROKU - Production system "vp-beta"
+
+Build LogID 60773ff5-c01c-4eb9-8f1b-3bc862f23c30
+-----> Ruby app detected
+-----> Compiling Ruby/Rails
+-----> Using Ruby version: ruby-2.4.2
+-----> Installing gsl
+-----> Installing dependencies using bundler 1.9.7
+       Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment
+       Ignoring bcrypt-3.1.11 because its extensions are not built.  Try: gem pristine bcrypt --version 3.1.11
+       Ignoring eventmachine-1.2.3 because its extensions are not built.  Try: gem pristine eventmachine --version 1.2.3
+       Ignoring ffi-1.9.18 because its extensions are not built.  Try: gem pristine ffi --version 1.9.18
+       Ignoring json-2.1.0 because its extensions are not built.  Try: gem pristine json --version 2.1.0
+       Ignoring narray-0.6.1.2 because its extensions are not built.  Try: gem pristine narray --version 0.6.1.2
+       Ignoring nio4r-2.1.0 because its extensions are not built.  Try: gem pristine nio4r --version 2.1.0
+       Ignoring nokogiri-1.8.5 because its extensions are not built.  Try: gem pristine nokogiri --version 1.8.5
+       Ignoring pg-0.21.0 because its extensions are not built.  Try: gem pristine pg --version 0.21.0
+       Ignoring thin-1.7.2 because its extensions are not built.  Try: gem pristine thin --version 1.7.2
+       Ignoring unf_ext-0.0.7.4 because its extensions are not built.  Try: gem pristine unf_ext --version 0.0.7.4
+       Ignoring websocket-driver-0.6.5 because its extensions are not built.  Try: gem pristine websocket-driver --version 0.6.5
+       Using rake 12.3.1
+       Using concurrent-ruby 1.1.5
+       Using minitest 5.11.3
+       Using thread_safe 0.3.6
+       Using builder 3.2.3
+       Using erubi 1.7.1
+       Using mini_portile2 2.3.0
+       Using crass 1.0.4
+       Using rack 2.0.5
+       Using nio4r 2.1.0
+       Using websocket-extensions 0.1.2
+       Using mime-types 1.25.1
+       Using arel 8.0.0
+       Using public_suffix 2.0.5
+       Using execjs 2.7.0
+       Using aws-partitions 1.37.0
+       Using aws-sigv4 1.0.2
+       Using jmespath 1.3.1
+       Using bcrypt 3.1.11
+       Using popper_js 1.12.9
+       Using rb-fsevent 0.10.2
+       Using ffi 1.9.18
+       Using cancancan 1.17.0
+       Using coffee-script-source 1.12.2
+       Using method_source 0.8.2
+       Using thor 0.20.0
+       Using daemons 1.2.4
+       Using orm_adapter 0.5.0
+       Using unf_ext 0.0.7.4
+       Using erubis 2.7.0
+       Using eventmachine 1.2.3
+       Using excon 0.57.1
+       Using multipart-post 2.0.0
+       Using fastercsv 1.5.5
+       Using formatador 0.2.5
+       Using multi_json 1.12.1
+       Using ipaddress 0.8.3
+       Using narray 0.6.1.2
+       Using hashie 3.5.7
+       Using multi_xml 0.6.0
+       Using mimemagic 0.3.2
+       Using socksify 1.7.1
+       Using json 2.1.0
+       Using jwt 1.5.6
+       Using systemu 2.6.5
+       Using mini_magick 4.8.0
+       Using moneta 0.8.1
+       Using netrc 0.11.0
+       Using newrelic_rpm 4.2.0.334
+       Using nori 2.6.0
+       Using pagy 2.1.4
+       Using pg 0.21.0
+       Using polylines 0.3.0
+       Using bundler 1.9.7
+       Using rails_serve_static_assets 0.0.5
+       Using rails_stdout_logging 0.0.5
+       Using rolify 5.1.0
+       Using session 3.2.0
+       Using tilt 2.0.7
+       Using switch_user 1.4.0
+       Using heroku-rglpk 0.2.1 from https://e01cb6d081d06c84b6f5949db76d4657756be8ff:x-oauth-basic@github.com/rvizza/heroku-rglpk.git (at master)
+       Using i18n 0.9.5
+       Using gyoku 1.3.1
+       Using sitemap_generator 6.0.1
+       Using nokogiri 1.8.5
+       Using tzinfo 1.2.5
+       Using websocket-driver 0.6.5
+       Using rack-test 0.6.3
+       Using warden 1.2.7
+       Using request_store 1.4.1
+       Using sprockets 3.7.2
+       Using addressable 2.5.1
+       Using autoprefixer-rails 8.1.0
+       Using uglifier 3.2.0
+       Using mail 2.6.6
+       Using aws-sdk-core 3.9.0
+       Using rb-inotify 0.9.10
+       Using coffee-script 2.4.1
+       Using figaro 1.1.1
+       Using unf 0.1.4
+       Using thin 1.7.2
+       Using faraday 0.12.2
+       Using fog-core 1.44.3
+       Using heroics 0.0.23
+       Using ride_parser 0.0.4 from https://e01cb6d081d06c84b6f5949db76d4657756be8ff:x-oauth-basic@github.com/rvizza/ride_parser.git (at master)
+       Using omniauth 1.8.1
+       Using httparty 0.15.5
+       Using httpi 2.4.2
+       Using macaddr 1.7.1
+       Using rails_12factor 0.0.3
+       Using rush 0.6.8
+       Using money 6.10.1
+       Using loofah 2.2.2
+       Using akami 1.3.1
+       Using top_efforts 0.0.2 from https://e01cb6d081d06c84b6f5949db76d4657756be8ff:x-oauth-basic@github.com/rvizza/top_efforts.git (at master)
+       Using activesupport 5.1.2
+       Using tzinfo-data 1.2017.2
+       Using aws-sdk-kms 1.3.0
+       Using sass-listen 4.0.0
+       Using domain_name 0.5.20170404
+       Using koala 3.0.0
+       Using oauth2 1.4.0
+       Using stripe 3.30.0
+       Using fog-json 1.0.2
+       Using fog-xml 0.1.3
+       Using platform-api 2.1.0
+       Using httmultiparty 0.3.16
+       Using wasabi 3.3.0
+       Using uuid 2.3.8
+       Using rails-html-sanitizer 1.0.4
+       Using rails-dom-testing 2.0.3
+       Using globalid 0.4.0
+       Using activemodel 5.1.2
+       Using delayed_job 4.1.3
+       Using aws-sdk-s3 1.7.0
+       Using sass 3.5.5
+       Using http-cookie 1.0.3
+       Using omniauth-oauth2 1.5.0
+       Using stripe_event 2.2.0
+       Using fog-aws 1.4.0
+       Using strava-api-v3 0.7.0
+       Using savon 2.8.1
+       Using actionview 5.1.2
+       Using activejob 5.1.2
+       Using activerecord 5.1.2
+       Using carrierwave 1.1.0
+       Using bootstrap 4.0.0
+       Using rest-client 2.0.2
+       Using omniauth-stripe-connect 2.10.0
+       Using actionpack 5.1.2
+       Using delayed_job_active_record 4.1.2
+       Using friendly_id 5.2.1
+       Using actioncable 5.1.2
+       Using actionmailer 5.1.2
+       Using railties 5.1.2
+       Using sprockets-rails 3.2.0
+       Using simple_form 3.5.1
+       Using coffee-rails 4.2.2
+       Using responders 2.4.0
+       Using jquery-fileupload-rails 0.4.7
+       Using jquery-rails 4.3.1
+       Using jquery-ui-rails 6.0.1
+       Using lograge 0.10.0
+       Using rails 5.1.2
+       Using sass-rails 5.0.6
+       Using social-share-button 1.1.0
+       Using devise 4.3.0
+       Using spinjs-rails 1.4
+       Using workless_revived 2.0.1
+       Using s3_direct_upload 0.1.7
+       Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+       current directory: /tmp/build_8d4b438b/vendor/bundle/ruby/2.4.0/bundler/gems/rb-gsl-eba8ad29acb5/ext
+       /tmp/build_8d4b438b/vendor/ruby-2.4.2/bin/ruby -r ./siteconf20200718-186-1w7fxns.rb extconf.rb
+       checking gsl version... extconf.rb:237:in `rescue in <main>': Check GSL>=0.9.4 is installed, and the command "gsl-config" is in search path. (RuntimeError)
+       from extconf.rb:138:in `<main>'
+       extconf failed, exit code 1
+       Gem files will remain installed in /tmp/build_8d4b438b/vendor/bundle/ruby/2.4.0/bundler/gems/rb-gsl-eba8ad29acb5 for inspection.
+       Results logged to /tmp/build_8d4b438b/vendor/bundle/ruby/2.4.0/bundler/gems/extensions/x86_64-linux/2.4.0/rb-gsl-eba8ad29acb5/gem_make.out
+       Using joule 1.0.4 from https://e01cb6d081d06c84b6f5949db76d4657756be8ff:x-oauth-basic@github.com/rvizza/joule.git (at master)
+       An error occurred while installing gsl (1.14.7), and Bundler cannot continue.
+       Make sure that `gem install gsl -v '1.14.7'` succeeds before bundling.
+       Bundler Output: Ignoring bcrypt-3.1.11 because its extensions are not built.  Try: gem pristine bcrypt --version 3.1.11
+       Ignoring eventmachine-1.2.3 because its extensions are not built.  Try: gem pristine eventmachine --version 1.2.3
+       Ignoring ffi-1.9.18 because its extensions are not built.  Try: gem pristine ffi --version 1.9.18
+       Ignoring json-2.1.0 because its extensions are not built.  Try: gem pristine json --version 2.1.0
+       Ignoring narray-0.6.1.2 because its extensions are not built.  Try: gem pristine narray --version 0.6.1.2
+       Ignoring nio4r-2.1.0 because its extensions are not built.  Try: gem pristine nio4r --version 2.1.0
+       Ignoring nokogiri-1.8.5 because its extensions are not built.  Try: gem pristine nokogiri --version 1.8.5
+       Ignoring pg-0.21.0 because its extensions are not built.  Try: gem pristine pg --version 0.21.0
+       Ignoring thin-1.7.2 because its extensions are not built.  Try: gem pristine thin --version 1.7.2
+       Ignoring unf_ext-0.0.7.4 because its extensions are not built.  Try: gem pristine unf_ext --version 0.0.7.4
+       Ignoring websocket-driver-0.6.5 because its extensions are not built.  Try: gem pristine websocket-driver --version 0.6.5
+       Using rake 12.3.1
+       Using concurrent-ruby 1.1.5
+       Using minitest 5.11.3
+       Using thread_safe 0.3.6
+       Using builder 3.2.3
+       Using erubi 1.7.1
+       Using mini_portile2 2.3.0
+       Using crass 1.0.4
+       Using rack 2.0.5
+       Using nio4r 2.1.0
+       Using websocket-extensions 0.1.2
+       Using mime-types 1.25.1
+       Using arel 8.0.0
+       Using public_suffix 2.0.5
+       Using execjs 2.7.0
+       Using aws-partitions 1.37.0
+       Using aws-sigv4 1.0.2
+       Using jmespath 1.3.1
+       Using bcrypt 3.1.11
+       Using popper_js 1.12.9
+       Using rb-fsevent 0.10.2
+       Using ffi 1.9.18
+       Using cancancan 1.17.0
+       Using coffee-script-source 1.12.2
+       Using method_source 0.8.2
+       Using thor 0.20.0
+       Using daemons 1.2.4
+       Using orm_adapter 0.5.0
+       Using unf_ext 0.0.7.4
+       Using erubis 2.7.0
+       Using eventmachine 1.2.3
+       Using excon 0.57.1
+       Using multipart-post 2.0.0
+       Using fastercsv 1.5.5
+       Using formatador 0.2.5
+       Using multi_json 1.12.1
+       Using ipaddress 0.8.3
+       Using narray 0.6.1.2
+       Using hashie 3.5.7
+       Using multi_xml 0.6.0
+       Using mimemagic 0.3.2
+       Using socksify 1.7.1
+       Using json 2.1.0
+       Using jwt 1.5.6
+       Using systemu 2.6.5
+       Using mini_magick 4.8.0
+       Using moneta 0.8.1
+       Using netrc 0.11.0
+       Using newrelic_rpm 4.2.0.334
+       Using nori 2.6.0
+       Using pagy 2.1.4
+       Using pg 0.21.0
+       Using polylines 0.3.0
+       Using bundler 1.9.7
+       Using rails_serve_static_assets 0.0.5
+       Using rails_stdout_logging 0.0.5
+       Using rolify 5.1.0
+       Using session 3.2.0
+       Using tilt 2.0.7
+       Using switch_user 1.4.0
+       Using heroku-rglpk 0.2.1 from https://e01cb6d081d06c84b6f5949db76d4657756be8ff:x-oauth-basic@github.com/rvizza/heroku-rglpk.git (at master)
+       Using i18n 0.9.5
+       Using gyoku 1.3.1
+       Using sitemap_generator 6.0.1
+       Using nokogiri 1.8.5
+       Using tzinfo 1.2.5
+       Using websocket-driver 0.6.5
+       Using rack-test 0.6.3
+       Using warden 1.2.7
+       Using request_store 1.4.1
+       Using sprockets 3.7.2
+       Using addressable 2.5.1
+       Using autoprefixer-rails 8.1.0
+       Using uglifier 3.2.0
+       Using mail 2.6.6
+       Using aws-sdk-core 3.9.0
+       Using rb-inotify 0.9.10
+       Using coffee-script 2.4.1
+       Using figaro 1.1.1
+       Using unf 0.1.4
+       Using thin 1.7.2
+       Using faraday 0.12.2
+       Using fog-core 1.44.3
+       Using heroics 0.0.23
+       Using ride_parser 0.0.4 from https://e01cb6d081d06c84b6f5949db76d4657756be8ff:x-oauth-basic@github.com/rvizza/ride_parser.git (at master)
+       Using omniauth 1.8.1
+       Using httparty 0.15.5
+       Using httpi 2.4.2
+       Using macaddr 1.7.1
+       Using rails_12factor 0.0.3
+       Using rush 0.6.8
+       Using money 6.10.1
+       Using loofah 2.2.2
+       Using akami 1.3.1
+       Using top_efforts 0.0.2 from https://e01cb6d081d06c84b6f5949db76d4657756be8ff:x-oauth-basic@github.com/rvizza/top_efforts.git (at master)
+       Using activesupport 5.1.2
+       Using tzinfo-data 1.2017.2
+       Using aws-sdk-kms 1.3.0
+       Using sass-listen 4.0.0
+       Using domain_name 0.5.20170404
+       Using koala 3.0.0
+       Using oauth2 1.4.0
+       Using stripe 3.30.0
+       Using fog-json 1.0.2
+       Using fog-xml 0.1.3
+       Using platform-api 2.1.0
+       Using httmultiparty 0.3.16
+       Using wasabi 3.3.0
+       Using uuid 2.3.8
+       Using rails-html-sanitizer 1.0.4
+       Using rails-dom-testing 2.0.3
+       Using globalid 0.4.0
+       Using activemodel 5.1.2
+       Using delayed_job 4.1.3
+       Using aws-sdk-s3 1.7.0
+       Using sass 3.5.5
+       Using http-cookie 1.0.3
+       Using omniauth-oauth2 1.5.0
+       Using stripe_event 2.2.0
+       Using fog-aws 1.4.0
+       Using strava-api-v3 0.7.0
+       Using savon 2.8.1
+       Using actionview 5.1.2
+       Using activejob 5.1.2
+       Using activerecord 5.1.2
+       Using carrierwave 1.1.0
+       Using bootstrap 4.0.0
+       Using rest-client 2.0.2
+       Using omniauth-stripe-connect 2.10.0
+       Using actionpack 5.1.2
+       Using delayed_job_active_record 4.1.2
+       Using friendly_id 5.2.1
+       Using actioncable 5.1.2
+       Using actionmailer 5.1.2
+       Using railties 5.1.2
+       Using sprockets-rails 3.2.0
+       Using simple_form 3.5.1
+       Using coffee-rails 4.2.2
+       Using responders 2.4.0
+       Using jquery-fileupload-rails 0.4.7
+       Using jquery-rails 4.3.1
+       Using jquery-ui-rails 6.0.1
+       Using lograge 0.10.0
+       Using rails 5.1.2
+       Using sass-rails 5.0.6
+       Using social-share-button 1.1.0
+       Using devise 4.3.0
+       Using spinjs-rails 1.4
+       Using workless_revived 2.0.1
+       Using s3_direct_upload 0.1.7
+       
+       Gem::Ext::BuildError: ERROR: Failed to build gem native extension.
+       
+       current directory: /tmp/build_8d4b438b/vendor/bundle/ruby/2.4.0/bundler/gems/rb-gsl-eba8ad29acb5/ext
+       /tmp/build_8d4b438b/vendor/ruby-2.4.2/bin/ruby -r ./siteconf20200718-186-1w7fxns.rb extconf.rb
+       checking gsl version... extconf.rb:237:in `rescue in <main>': Check GSL>=0.9.4 is installed, and the command "gsl-config" is in search path. (RuntimeError)
+       from extconf.rb:138:in `<main>'
+       
+       extconf failed, exit code 1
+       
+       Gem files will remain installed in /tmp/build_8d4b438b/vendor/bundle/ruby/2.4.0/bundler/gems/rb-gsl-eba8ad29acb5 for inspection.
+       Results logged to /tmp/build_8d4b438b/vendor/bundle/ruby/2.4.0/bundler/gems/extensions/x86_64-linux/2.4.0/rb-gsl-eba8ad29acb5/gem_make.out
+       Using joule 1.0.4 from https://e01cb6d081d06c84b6f5949db76d4657756be8ff:x-oauth-basic@github.com/rvizza/joule.git (at master)
+       An error occurred while installing gsl (1.14.7), and Bundler cannot continue.
+       Make sure that `gem install gsl -v '1.14.7'` succeeds before bundling.
+ !
+ !     Failed to install gems via Bundler.
+ !
+ !     Push rejected, failed to compile Ruby app.
+ !     Push failed
