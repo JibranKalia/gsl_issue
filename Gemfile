@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
+ruby '2.5.8'
 
 gem 'rake', '13.0.1'
 gem 'minitest', '5.14.1'
