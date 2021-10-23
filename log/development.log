@@ -1,0 +1,56 @@
+Started GET "/" for ::1 at 2021-10-22 21:38:47 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jibrank/.rvm/gems/ruby-2.5.8/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jibrank/.rvm/gems/ruby-2.5.8/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 169ms (Views: 8.3ms)
+
+
+Started GET "/" for ::1 at 2021-10-22 21:38:48 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jibrank/.rvm/gems/ruby-2.5.8/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jibrank/.rvm/gems/ruby-2.5.8/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 9ms (Views: 5.3ms)
+
+
+Started GET "/" for ::1 at 2021-10-22 21:40:14 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jibrank/.rvm/gems/ruby-2.5.8/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jibrank/.rvm/gems/ruby-2.5.8/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (1.7ms)
+Completed 200 OK in 8ms (Views: 4.8ms)
+
+
+Started GET "/" for ::1 at 2021-10-22 21:40:15 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jibrank/.rvm/gems/ruby-2.5.8/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jibrank/.rvm/gems/ruby-2.5.8/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (1.8ms)
+Completed 200 OK in 9ms (Views: 5.3ms)
+
+
+Started GET "/" for ::1 at 2021-10-22 21:40:22 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jibrank/.rvm/gems/ruby-2.5.8/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jibrank/.rvm/gems/ruby-2.5.8/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 145ms (Views: 8.4ms)
+
+
+Started GET "/" for ::1 at 2021-10-22 21:40:23 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jibrank/.rvm/gems/ruby-2.5.8/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jibrank/.rvm/gems/ruby-2.5.8/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 9ms (Views: 5.3ms)
+
+
+Started GET "/" for ::1 at 2021-10-22 21:41:21 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jibrank/.rvm/gems/ruby-2.5.8/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jibrank/.rvm/gems/ruby-2.5.8/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 9ms (Views: 5.3ms)
+
+
+Started GET "/" for ::1 at 2021-10-22 21:43:22 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/jibrank/.rvm/gems/ruby-2.5.8/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/jibrank/.rvm/gems/ruby-2.5.8/gems/railties-5.1.7/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 155ms (Views: 7.8ms)
+
+
